@@ -1,10 +1,15 @@
 Prerequisites
+
 You should have a valid Azure Subscription
+
 You should have a running Azure Function
+
 If you are not sure about how to create an Azure Function App, 
+
 You should have a valid Azure Storage Account
 
 Using the code
+
 Configure the Dependency Injection in Azure Function
 As we are going to inject our dependency via constructor we need to configure the same by creating a Startup.cs class in our solution. Let’s do that first. To configure, make sure that you had installed the Nuget Package Microsoft.Azure.Functions.Extensions.
 
@@ -166,10 +171,15 @@ Here you can see that in the PerformTasks function we are getting the blob conta
 Make sure to add the AzureWebJobsStorage in your local.settings.json file and in the Azure Function Configuration in the portal.
 
 we have learned,
+
 about Azure Function and setting up the same
+
 about Time Trigger in Azure Function
+
 about CRON expressions in Azure Function
+
 how to set up dependency injection in Azure Function
+
 how to delete Azure blobs from Azure Blob Containers using Azure Function
 
 
