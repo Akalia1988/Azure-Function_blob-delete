@@ -16,8 +16,11 @@ As we are going to inject our dependency via constructor we need to configure th
 Now create a new class and name it as Startup.cs and write the code as preceding.
 
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
+
 using Microsoft.Extensions.DependencyInjection;
+
 using Backup.Functions.Interfaces;
+
 using Backup.Functions.Services;
 
 [assembly: FunctionsStartup(typeof(Backup.Functions.Startup))]
